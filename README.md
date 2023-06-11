@@ -1,6 +1,5 @@
 # Versta
 
-[Project Description]
 You can create orders, see all orders on a home page and click on them to see the deatils
 
 ## Technologies Used
@@ -14,5 +13,5 @@ This project utilizes the following technologies:
 
 ## Installation
 
-Just clone the repository and open it in Rider (I created this app from their tamplate so it will be better to test it there).
+Just clone the repository and open it in Rider (I created this app from their tеmplate so it will be better to test it there).
 Run it, dont forget to make sure that node.js is installed.
