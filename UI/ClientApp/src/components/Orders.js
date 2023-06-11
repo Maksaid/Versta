@@ -36,7 +36,6 @@ const Orders = () => {
     return (
         <div>
             <h2>Orders</h2>
-            {/* Render the orders */}
             {orders.map(order => (
                 <div key={order.id} style={
                     hoveredOrderId === order.id
@@ -60,12 +59,10 @@ const orderContainerStyle = {
     transition: 'box-shadow 0.3s ease',
     boxShadow: '0 0 0 rgba(0, 0, 0, 0.2)',
     cursor: 'pointer',
-    // Add additional styles as needed
 };
 
 const orderContainerHoverStyle = {
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)',
-    // Add additional hover styles as needed
 };
 
 
